@@ -79,7 +79,7 @@ python main.py --jd jd.txt --resumes resumes
 artifacts/ranking.csv
 
 🔹 Run Web Application (Resume + Cover Letter)
-streamlit run app.py
+streamlit run source_code/app.py
 
 📌 Features:
 Enter student details
