@@ -110,6 +110,7 @@ Source: Kaggle / Custom processed dataset
 Training:
 python dataset/train_model.py
 The trained model helps the system understand resume structure and language patterns.
+trained model=dataset/resume_model
 
 
 🔮 Future Enhancements
