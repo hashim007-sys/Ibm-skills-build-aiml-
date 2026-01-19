@@ -1,0 +1,7 @@
+Name: Student Three
+Education: B.Tech CSE
+Skills: Java, Python, Data Science
+Projects:
+- Sentiment Analysis using NLP
+Experience:
+- Research Intern (1 year)

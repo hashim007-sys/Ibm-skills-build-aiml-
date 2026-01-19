@@ -1,0 +1,7 @@
+Name: Student Two
+Education: B.Tech IT
+Skills: Python, SQL, Web Development
+Projects:
+- Web Application using Flask
+Experience:
+- Internship (3 months)

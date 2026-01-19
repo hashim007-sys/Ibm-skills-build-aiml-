@@ -1,0 +1,18 @@
+python
+java
+c++
+sql
+javascript
+machine learning
+data science
+nlp
+pandas
+numpy
+scikit-learn
+tensorflow
+pytorch
+flask
+streamlit
+docker
+aws
+gcp

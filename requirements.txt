@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+pdfminer.six
+regex
+
+# Transformer model
+torch
+transformers
+sentencepiece
+
+# Groq LLM API
+groq

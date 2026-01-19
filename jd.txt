@@ -1,0 +1,4 @@
+We are looking for a Machine Learning Intern with strong knowledge of Python.
+The candidate should have experience in data analysis, machine learning,
+and basic NLP concepts. Familiarity with pandas, numpy, scikit-learn,
+and project-based learning is preferred.

@@ -1,0 +1,8 @@
+Name: Student One
+Education: B.Tech Computer Science
+Skills: Python, Machine Learning, Pandas, Numpy, Scikit-learn
+Projects:
+- AI Resume Ranker using NLP
+- Data Analysis Project
+Experience:
+- Machine Learning Intern (6 months)
