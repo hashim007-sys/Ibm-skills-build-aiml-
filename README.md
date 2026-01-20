@@ -80,7 +80,8 @@ Resume text → Professional resume pairs
 Source: Kaggle / Custom processed dataset
 
 Training:
-python dataset/train_model.py
+run python dataset/train_model.py
+
 The trained model helps the system understand resume structure and language patterns.
 trained model=dataset/resume_model
 takes 15-25 mins
@@ -93,13 +94,13 @@ in ai_writer.py replace GROQ_API_KEY = "YOUR GROQ API KEY HERE" with GROQ_API_KE
 ----now the project is ready to run.
 
 🔹 Resume Ranking (Machine Learning)
-python main.py --jd jd.txt --resumes resumes
+ run python main.py --jd jd.txt --resumes resumes
 
 📌 Output:
 artifacts/ranking.csv
 
 🔹 Run Web Application (Resume + Cover Letter)
-streamlit run source_code/app.py
+run streamlit run source_code/app.py
 
 📌 Output:
 artifacts/generated_resume_app.txt
