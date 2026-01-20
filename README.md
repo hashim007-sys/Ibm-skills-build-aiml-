@@ -85,7 +85,12 @@ The trained model helps the system understand resume structure and language patt
 trained model=dataset/resume_model
 takes 15-25 mins
 
----second in ai_writer.py replace 
+---second insert api key
+
+in ai_writer.py replace GROQ_API_KEY = "YOUR GROQ API KEY HERE" with GROQ_API_KEY = "your actual groq api key"
+
+
+----now the project is ready to run.
 
 🔹 Resume Ranking (Machine Learning)
 python main.py --jd jd.txt --resumes resumes
