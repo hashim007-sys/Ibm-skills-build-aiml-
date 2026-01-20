@@ -72,6 +72,21 @@ pip install -r requirements.txt
 
 🚀 How to Run the Project
 
+---first train the model
+
+🧪 Model Training
+Dataset:
+Resume text → Professional resume pairs
+Source: Kaggle / Custom processed dataset
+
+Training:
+python dataset/train_model.py
+The trained model helps the system understand resume structure and language patterns.
+trained model=dataset/resume_model
+takes 15-25 mins
+
+---second in ai_writer.py replace 
+
 🔹 Resume Ranking (Machine Learning)
 python main.py --jd jd.txt --resumes resumes
 
@@ -80,6 +95,13 @@ artifacts/ranking.csv
 
 🔹 Run Web Application (Resume + Cover Letter)
 streamlit run source_code/app.py
+
+📌 Output:
+artifacts/generated_resume_app.txt
+artifacts/generated_cover_letter_app.txt
+
+important note- for now the output will be generated only inside vscode folder not in streamlit user interface.download option can be easily integrated later.
+
 
 📌 Features:
 Enter student details
@@ -102,15 +124,6 @@ Bullet-point achievements
 Role-specific cover letters
 
 
-🧪 Model Training (Optional)
-Dataset:
-Resume text → Professional resume pairs
-Source: Kaggle / Custom processed dataset
-
-Training:
-python dataset/train_model.py
-The trained model helps the system understand resume structure and language patterns.
-trained model=dataset/resume_model
 
 
 🔮 Future Enhancements
